@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Diri - Tugas Pendahuluan</title>
+</head>
+<body>
+  <h1>Profil Saya</h1>
+
+  <!-- Tag IMG: untuk menampilkan gambar profil -->
+  <img src="pic.jpg" alt="Foto Profil" width="200">
+
+  <!-- Tag DIV: untuk membungkus bagian biodata -->
+  <div>
+    <h2>Biodata</h2>
+    <!-- Tag TABLE: untuk menampilkan data dalam bentuk tabel -->
+    <table border="1">
+      <!-- Tag TR: Table row (membuat baris) -->
+      <tr>
+        <!-- Tag TH: table header (membuat header) -->
+        <th>Nama</th>
+        <!-- Tag TD: Table data (membuat data sel) -->
+        <td>Muhammad Al-Fath Ilyasa</td>
+      </tr>
+      <tr>
+        <th>NIM</th>
+        <td>103032330168</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Tag A (anchor): untuk membuat hyperlink -->
+  <p>Kunjungi akun saya di 
+    <a href="https://github.com/Fayy1" target="_blank">GitHub</a>
+  </p>
+
+  <!-- Tag VIDEO: untuk menampilkan video -->
+  <h2>Video Perkenalan</h2>
+  <video width="320" controls>
+    <source src="vid.mp4" type="video/mp4">
+    Browser Anda tidak mendukung video.
+  </video>
+
+  <!-- Tag FORM: untuk input data -->
+  <h2>Hubungi Saya</h2>
+  <form action="#" method="POST">
+    <!-- Tag INPUT text -->
+    <label>Nama: </label>
+    <input type="text" name="nama"><br><br>
+
+    <!-- Tag INPUT email -->
+    <label>Email: </label>
+    <input type="email" name="email"><br><br>
+
+    <!-- Tag TEXTAREA: untuk pesan panjang -->
+    <label>Pesan: </label><br>
+    <textarea name="pesan" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Tag BUTTON: untuk submit -->
+    <button type="submit">Kirim</button>
+  </form>
+
+</body>
+</html>
